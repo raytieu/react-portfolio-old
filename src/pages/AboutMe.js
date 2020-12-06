@@ -1,5 +1,6 @@
 import React from "react";
-import Resume from "../images/resume.pdf"
+import Resume from "../images/resume.pdf";
+import ProfilePic from "../images/about-pic.jpg";
 import './AboutMe.css';
 
 function AboutMe() {
@@ -7,7 +8,7 @@ function AboutMe() {
     <div>
       <div className="container about-me">
 
-        <div className="card">
+        <div className="card" style={{border: "5px solid rgb(72, 145, 72)"}}>
 
           <div className="row" style={{margin: "10px"}}>
             <div className="col-md-12">
@@ -18,7 +19,7 @@ function AboutMe() {
 
           <div className="row" style={{margin: "10px", marginBottom: "30px"}}>
             <div className="col-sm-6 col-lg-4">
-              <img src="../images/about-pic.jpg" alt="Raymond Tieu" className="img-fluid" style={{border: "solid 3px black"}} />
+              <img src={ProfilePic} alt="Raymond Tieu" className="img-fluid" style={{border: "solid 3px black"}} />
             </div>
             <div className="col-sm-6 col-lg-4">
               <p style={{marginTop: "10px"}}>Hi, I'm Raymond and welcome to my portfolio page.  I am attending the Coding Boot Camp at UCI and aspire to be a web developer/software engineer.  I previously graduated from UCI with a B.A. in Business Economics.  My hobbies include dabbling into personal finance topics and playing in recreational basketball leagues with my friends.</p>

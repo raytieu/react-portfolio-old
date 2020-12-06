@@ -7,7 +7,7 @@ import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 
 function App() {
   return (
-    <div>
+    <div className="bgcolor">
       <Router>
         <Navbar />
         <Switch>

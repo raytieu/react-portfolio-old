@@ -4,7 +4,7 @@ import './Project.css';
 function Project(props) {
   return (
     <div className="col-md-6 col-lg-4 col-xl-3">
-      <div className="card mb-4 box-shadow">
+      <div className="card mb-4 box-shadow" style={{border: "5px solid rgb(72, 145, 72)"}}>
         <img className="card-img-top image img-fluid" src={props.image} alt={props.alt} />
         <div className="card-body">
           <p className="card-text">{props.title}</p>     
