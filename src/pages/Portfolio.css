@@ -1,0 +1,37 @@
+body {
+  background-color: rgb(219, 233, 219);
+}
+
+.about-me {
+  padding: 10px;
+  margin: 10px;
+}
+
+.image {
+  width: auto;
+  height: 250px;
+}
+
+.portfolio-title {
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 0px;
+  background-color: rgb(72, 145, 72);
+  color: white;
+  margin-top: 30px;
+}
+
+.card-body {
+  border-top: 5px solid black;
+  text-align: center;
+  align-items: center;
+}
+
+.card {
+  width: auto;
+  border: 5px solid rgb(72, 145, 72);
+}
+
+.card-text {
+  font-weight: bold;
+}
