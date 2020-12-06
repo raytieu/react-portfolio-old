@@ -13,10 +13,10 @@ function Navbar() {
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="nav navbar-nav navbar-right">
           <li className="nav-item">
-            <a className="nav-link" href="index.html">About Me</a>
+            <Link style={{color: "white", marginLeft: "10px", marginRight: "20px"}} to="/aboutme">About Me</Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="portfolio.html">Portfolio</a>
+            <Link style={{color: "white"}} to="/portfolio">Portfolio</Link>
           </li>
         </ul>
       </div>
